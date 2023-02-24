@@ -109,8 +109,8 @@ export default function NavBar() {
                                                     ? (
                                                         <ul className="pl-10 md:mt-8 md:absolute bg-[#232323] flex flex-col h-fit w-56 p-4 md:border-t-2 md:border-[#f7db5d] text-white">
                                                             {subItems.map(([subTitle, subUrl]) => (
-                                                                <Link to={url}>
-                                                                    <li className="text-white hover:text-gray-400 py-2 duration-300"><Link to={subUrl}>{subTitle}</Link></li>
+                                                                <Link to={subUrl}>
+                                                                    <li className="text-white hover:text-gray-400 py-2 duration-300">{subTitle}</li>
                                                                 </Link>
                                                             ))}
                                                         </ul>
