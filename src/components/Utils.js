@@ -55,6 +55,7 @@ export function YoutubeVideo(props) {
     return (
         <div className="video-container">
             <iframe
+                className="w-full h-[250px] sm:h-[310px] md:h-[602px]"
                 src={props.link}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen=""
