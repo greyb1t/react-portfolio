@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.ebec962f.css",
-    "main.js": "/react-portfolio/static/js/main.90375c69.js",
+    "main.js": "/react-portfolio/static/js/main.36c28eeb.js",
     "static/media/menu.mp4": "/react-portfolio/static/media/menu.df7d34347950dd8a7a35.mp4",
     "static/media/animation_machine.mkv": "/react-portfolio/static/media/animation_machine.70499b499f1b8b40412f.mkv",
     "static/media/404.gif": "/react-portfolio/static/media/404.b0232c0ecedc97323513.gif",
@@ -17,7 +17,6 @@
     "static/media/speed_pickups.mp4": "/react-portfolio/static/media/speed_pickups.17f15ab6c69b8d6064f4.mp4",
     "static/media/body-missiles.mp4": "/react-portfolio/static/media/body-missiles.1b3cf84f6a927829ba23.mp4",
     "static/media/optimizedrendering.mp4": "/react-portfolio/static/media/optimizedrendering.b669c3312977d54afc4d.mp4",
-    "static/media/specializationthumbvideo.mkv": "/react-portfolio/static/media/specializationthumbvideo.163a8b236f8c6148723e.mkv",
     "static/media/tileprojectilecollision.mp4": "/react-portfolio/static/media/tileprojectilecollision.98c1c3870ea842faf551.mp4",
     "static/media/era_5.png": "/react-portfolio/static/media/era_5.b555bd957dfb06d81419.png",
     "static/media/hand-punch.mp4": "/react-portfolio/static/media/hand-punch.8aba6ebc10d9690aaa28.mp4",
@@ -68,6 +67,7 @@
     "static/media/decalsusage.png": "/react-portfolio/static/media/decalsusage.364575b04e7ba1545b57.png",
     "static/media/SilenceTheSun_Screenshot2.png": "/react-portfolio/static/media/SilenceTheSun_Screenshot2.49c1ce4e1a779ed81951.png",
     "static/media/SilenceTheSun_Screenshot1.png": "/react-portfolio/static/media/SilenceTheSun_Screenshot1.50476bb76b5d7fef3bce.png",
+    "static/media/specializationthumbvideo.mp4": "/react-portfolio/static/media/specializationthumbvideo.703de58c9d4e7a1f72d1.mp4",
     "static/media/Starfall_04.jpg": "/react-portfolio/static/media/Starfall_04.87a558c3b03df9dff739.jpg",
     "static/media/Screenshot_EgarsRage-5.png": "/react-portfolio/static/media/Screenshot_EgarsRage-5.f606554787efa7a5651a.png",
     "static/media/inspector2.mp4": "/react-portfolio/static/media/inspector2.189a648814d2efed57f5.mp4",
@@ -157,10 +157,10 @@
     "static/media/autoinspector.png": "/react-portfolio/static/media/autoinspector.25e8f3b148adfbfd0e78.png",
     "index.html": "/react-portfolio/index.html",
     "main.ebec962f.css.map": "/react-portfolio/static/css/main.ebec962f.css.map",
-    "main.90375c69.js.map": "/react-portfolio/static/js/main.90375c69.js.map"
+    "main.36c28eeb.js.map": "/react-portfolio/static/js/main.36c28eeb.js.map"
   },
   "entrypoints": [
     "static/css/main.ebec962f.css",
-    "static/js/main.90375c69.js"
+    "static/js/main.36c28eeb.js"
   ]
 }
