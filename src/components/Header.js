@@ -51,13 +51,13 @@ export default function NavBar() {
         ['Home', '/'],
         ['About', '/about'],
         ['Specialization', '/specialization'],
-        ['Showcase', 'javascript:void(0)', [
+        ['Showcase', '#', [
             ['Editor', '/editor'],
             ['Animation State Machine Editor', '/animation-state-editor'],
             ['Reflection System', '/reflection-system'],
             ['2D Realtime Lighting', '/visibility-lighting'],
         ]],
-        ['Projects', 'javascript:void(0)', [
+        ['Projects', '#', [
             ['Starfall', '/starfall'],
             ['ERA', '/era'],
             ["Egar's Rage", '/egarsrage'],
@@ -73,7 +73,7 @@ export default function NavBar() {
         <nav className="w-full bg-[#232323] drop-shadow text-lg font-medium pr-16">
             <div className="justify-between px-4 mx-auto lg:max-w-6xl md:items-center md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                    <a href="/">
+                    <a href="#">
                         <img src={FilipLogo} />
                     </a>
                     <MobileNavbarDropdownIcon navbarVisible={navbarVisible} setNavbarVisible={setNavbarVisible} />
@@ -83,7 +83,7 @@ export default function NavBar() {
                         <ul className="space-y-8 md:flex md:space-x-6 md:space-y-0">
                             {
                                 menuItems.map(([title, url, subItems]) => (
-                                    <Link to={url}>
+                                    <Link to={url} key={title}>
                                         <li
                                             className="text-white hover:text-gray-400 py-2 md:py-10 duration-300"
                                             onClick={() => {
@@ -109,7 +109,7 @@ export default function NavBar() {
                                                     ? (
                                                         <ul className="pl-10 md:mt-8 md:absolute bg-[#232323] flex flex-col h-fit w-56 p-4 md:border-t-2 md:border-[#f7db5d] text-white">
                                                             {subItems.map(([subTitle, subUrl]) => (
-                                                                <Link to={subUrl}>
+                                                                <Link to={subUrl} key={subTitle}>
                                                                     <li className="text-white hover:text-gray-400 py-2 duration-300">{subTitle}</li>
                                                                 </Link>
                                                             ))}
