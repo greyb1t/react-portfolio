@@ -1,4 +1,4 @@
-import CV from './../resources/CV-TGA.pdf'
+import CV from './../resources/CV_FilipTynell.pdf'
 import { Divider, MakeLink } from './Utils'
 import ProfilePicture from './../resources/images/filip-scaled.jpg'
 
@@ -13,35 +13,18 @@ function About() {
                 </div>
                 <div className='my-10 text-left leading-7'>
                     <p className='pb-8'>
-                        Hello! I am Filip Tynell who is currently working at Sharkmob as a Tools Engineer in Malmö.
+                        Hello! I am Filip Tynell, I am currently working at Sharkmob as a Tools Engineer in Malmö.
                     </p>
                     <p className='pb-8'>
-                        I started learning programming at age 17 and have had some successful software that has been popular within a smaller community, I have even been able to monetize some of them.
+                        Started learning programming at the age of 17 and have since developed software that has been well-received within niche communities. Some of these projects have also provided opportunities for modest monetization.
                     </p>
                     <p>
-                        I am very curious and I enjoy challenging myself which is why I have tried and worked on all parts of game development programming-wise during a total of 8 game projects. I like all parts of making games, but I specifically love tools, engine and gameplay.
+                        I am naturally curious and enjoy challenging myself, which has led me to explore many aspects of game development from a programming perspective across eight different projects. I am particularly passionate about tools and engine development.
                     </p>
                 </div>
 
                 <Divider />
 
-                <div className='my-10 text-left'>
-                    <h4 className='font-bold pb-8'>
-                        NOTABLE SKILLS
-                    </h4>
-                    <p className='pb-8'>
-                        <strong>C++</strong> is my primary programming language with 7 years’ experience.
-                    </p>
-                    <p className='pb-8'>
-                        <strong>C#</strong> is my secondary language with 3 years’ experience.
-                    </p>
-                    <p className='pb-8'>
-                        I also have good experience using <strong>DirectX 11, Unity, Win32 API, Unreal Engine</strong>
-                    </p>
-                    <p className='pb-8'>
-                        Worked with the following source controls <strong>Github, SVN and Perforce.</strong>
-                    </p>
-                </div>
                 <div className='text-left my-10'>
                     <h2 className='text-left text-2xl pb-6'>
                         <b>Contact</b>

@@ -41,10 +41,10 @@ function Introduction() {
                     <h1>Welcome to my portfolio!</h1>
                 </div>
                 <p className='pb-4'>
-                    Hey!
+                    Hello!
                 </p>
                 <p className='pb-4'>
-                    Below you can find some of the projects I have been a part of and some work I am proud of during my time at The Game Assembly. Thank you for reading!
+                    Here you can find some of the projects I have been a part of and some work I am proud of during my time at The Game Assembly. Thank you for reading!
                 </p>
                 <MakeLink to="/about">Read more...</MakeLink>
             </div>
