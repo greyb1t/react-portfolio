@@ -1,6 +1,6 @@
 import ProfilePicture from './../resources/images/filip-scaled-mini.jpg'
 import { Divider, MakeInternalLink, MakeLink, MakeTitle, MakeTitleMedium, MakeVideo } from './Utils'
-import SpecializationVideo from './../resources/videos/specializationthumbvideo.mkv'
+import SpecializationVideo from './../resources/videos/specializationthumbvideo.mp4'
 import EditorVideo from './../resources/videos/editormainvideo.mp4'
 import AnimationEditorVideo from './../resources/videos/animationmachineeditor.mp4'
 import LightingVideo from './../resources/videos/lighting.mp4'
