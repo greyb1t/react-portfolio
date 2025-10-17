@@ -3,7 +3,7 @@ import AnimationStateMachineEditorImage from './../resources/animationstateedito
 import NewStateVideo from './../resources/animationstateeditor/New_State.mp4'
 import StatePropertiesImage from './../resources/animationstateeditor/state_properties.png'
 import TransitionPropertiesImage from './../resources/animationstateeditor/transition_properties.png'
-import AnimationMachineVideo2 from './../resources/animationstateeditor/animation_machine.mkv'
+import AnimationMachineVideo2 from './../resources/animationstateeditor/animation_machine.mp4'
 import BlendTreeImage from './../resources/animationstateeditor/blendtree.png'
 import BlendSpace2DVideo from './../resources/animationstateeditor/2dblendspace2.mp4'
 import SkeletonMaskImage from './../resources/animationstateeditor/skeletonmask.png'
