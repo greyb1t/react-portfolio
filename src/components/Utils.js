@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 export function Divider(props) {
     return (
-        <div className="relative flex py-5 items-center">
+        <div className="flex py-5 items-center">
             <div className="flex-grow border-t border-gray-400"></div>
         </div>
     );
@@ -12,7 +12,7 @@ export function Divider(props) {
 
 export function MakeLink(props) {
     return (
-        <a href={props.to} className='text-sky-500 hover:underline'>{props.children}</a>
+        <Link to={props.to} className='text-sky-500 hover:underline'>{props.children}</Link>
     );
 }
 
@@ -43,10 +43,12 @@ export function MakeTitleSmaller(props) {
 export function MakeVideo(props) {
     return (
         <div>
-            <video className='p-4 mx-auto' loop="loop" muted autoPlay>
-                <source type="video/mp4" src={props.video} />
-                Your browser does not support the video tag
-            </video>
+            <a href={props.video}>
+                <video className='p-4 mx-auto' loop="loop" muted autoPlay>
+                    <source type="video/mp4" src={props.video} />
+                    Your browser does not support the video tag
+                </video>
+            </a>
         </div>
     );
 }

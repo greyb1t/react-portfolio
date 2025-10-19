@@ -14,6 +14,7 @@ import GhostCruiserThumbnail from './../resources/images/ghostcruierser_thumbnai
 import RunmirThumbnail from './../resources/images/Runmir_Thumbnail.jpg'
 import ABarkInTheDarkhumbnail from './../resources/images/BarkInDark_Thumbnail.png'
 import { Link } from 'react-router-dom'
+import { projectMainResponsibilities } from "./ProjectMainResponsibilities";
 
 function Home() {
     return (
@@ -125,7 +126,7 @@ function GameProjects() {
                     <div className='pb-12'></div>
                     <ShowcaseGameProject
                         image={StarfallThumbnail}
-                        title="STAR FALL"
+                        title="STARFALL"
                         project="Project 8"
                         engine="Dog Engine"
                         genre="Rogue-like"
@@ -150,7 +151,7 @@ function GameProjects() {
                     <div className='pb-12'></div>
                     <ShowcaseGameProject
                         image={EgarsRageThumbnail}
-                        title="EGAR’S RAGE"
+                        title="EGAR'S RAGE"
                         project="Project 6"
                         engine="Dog Engine"
                         genre="3rd Topdown RPG"
@@ -248,18 +249,24 @@ function ShowcaseWindow(props) {
 }
 
 function ShowcaseGameProject(props) {
+    const subDescription = projectMainResponsibilities[props.title.toLowerCase()];
+    const hasDescription = subDescription !== undefined;
+    
     return (
         <Link to={props.to}>
             <div className='sm:max-w-sm md:max-w-lg container mx-auto bg-[#191919] duration-300 hover:scale-105'>
                 <img className='pb-6 w-full' src={props.image} />
                 <MakeTitleMedium text={props.title} />
-                <p className='text-center text-gray-400 pt-2 pb-4'>
-                    {props.project}
-                </p>
-                <p className='text-center text-[#c9c9c9]'>
-                    <strong>Written in: </strong> {props.engine}
-                    <br />
-                    <strong>Genre: </strong> {props.genre}
+                <p className='text-center text-gray-400'>
+                    <div className='pb-4'>{props.project}</div>
+                    {hasDescription && (
+                        <div>
+                            <strong>Responsibilities</strong>
+                            <p className="text-gray-400 text-sm px-4 pt-2">
+                                {subDescription.join(', ')}
+                            </p>
+                        </div>
+                    )}
                 </p>
             </div>
         </Link>

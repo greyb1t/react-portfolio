@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import FilipLogo from './../resources/images/filip_logo.png'
+import { projectMainResponsibilities } from "./ProjectMainResponsibilities";
 
 function MobileNavbarDropdownIcon(props) {
     return (
@@ -103,20 +104,59 @@ export default function NavBar() {
                                             </div>
 
 
-
                                             {
                                                 (subItems && ((dropDownStatesMap.has(title) && dropDownStatesMap.get(title)) || navbarVisible))
                                                     ? (
-                                                        <ul className="pl-10 md:mt-8 md:absolute bg-[#232323] flex flex-col h-fit w-56 p-4 md:border-t-2 md:border-[#f7db5d] text-white">
-                                                            {subItems.map(([subTitle, subUrl]) => (
-                                                                <Link to={subUrl} key={subTitle}>
-                                                                    <li className="text-white hover:text-gray-400 py-2 duration-300">{subTitle}</li>
-                                                                </Link>
-                                                            ))}
+                                                        <ul className="w-96 md:mt-8 md:absolute  text-white">
+                                                            <div className="md:relative md:right-[40%] grid grid-cols-2 bg-[#232323] md:border-t-2 md:border-[#f7db5d]">
+                                                                {subItems.map(([subTitle, subUrl]) => {
+                                                                const subDescription = projectMainResponsibilities[subTitle.toLowerCase()];
+                                                                const hasDescription = subDescription !== undefined;
+                                                                
+                                                                return (
+                                                                    <>
+                                                                    <Link to={subUrl} key={subTitle} className="hover:bg-gray-700 px-2">
+                                                                        <li className="text-white">{subTitle}</li>
+                                                                        {hasDescription && (
+                                                                            <>
+                                                                                <p className="text-gray-400 text-sm">{subDescription.join(', ')}</p>
+                                                                            </>
+                                                                        )}
+                                                                    </Link>
+                                                                    </>
+                                                                );
+                                                            })}
+                                                            </div>
                                                         </ul>
                                                     )
                                                     : ""
                                             }
+
+                                            {/*
+                                                (subItems && ((dropDownStatesMap.has(title) && dropDownStatesMap.get(title)) || navbarVisible))
+                                                    ? (
+                                                        <ul className="md:mt-8 md:absolute bg-[#232323] flex flex-col h-fit w-56 md:border-t-2 md:border-[#f7db5d] text-white">
+                                                            {subItems.map(([subTitle, subUrl]) => {
+                                                                const subDescription = projectMainResponsibilities[subTitle.toLowerCase()];
+                                                                const hasDescription = subDescription !== undefined;
+                                                                
+                                                                return (
+                                                                    <>
+                                                                    <Link to={subUrl} key={subTitle} className="hover:bg-gray-700 px-4">
+                                                                        <li className="text-white">{subTitle}</li>
+                                                                        {hasDescription && (
+                                                                            <>
+                                                                                <p className="text-gray-400 text-sm">{subDescription.join(', ')}</p>
+                                                                            </>
+                                                                        )}
+                                                                    </Link>
+                                                                    </>
+                                                                );
+                                                            })}
+                                                        </ul>
+                                                    )
+                                                    : ""
+                                            */}
                                         </li>
                                     </Link>
                                 ))

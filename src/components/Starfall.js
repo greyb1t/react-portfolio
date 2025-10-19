@@ -70,6 +70,17 @@ function Starfall() {
             </LeftContentRightTextHalf>
 
             <MakeVideo video={BodyDeathVideo} />
+
+            <MakeTitleMedium text="ENGINE / RENDERING / EDITOR" />
+
+            <p>Forgot to take notes of what I did in the rendering / engine parts during this project, but SSAO was one of them.<br/>But forgot everything else :(</p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         </div>
     );
 }
