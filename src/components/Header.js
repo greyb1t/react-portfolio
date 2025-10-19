@@ -114,7 +114,6 @@ export default function NavBar() {
                                                                 const hasDescription = subDescription !== undefined;
                                                                 
                                                                 return (
-                                                                    <>
                                                                     <Link to={subUrl} key={subTitle} className="hover:bg-gray-700 px-2">
                                                                         <li className="text-white">{subTitle}</li>
                                                                         {hasDescription && (
@@ -123,7 +122,6 @@ export default function NavBar() {
                                                                             </>
                                                                         )}
                                                                     </Link>
-                                                                    </>
                                                                 );
                                                             })}
                                                             </div>
@@ -131,32 +129,6 @@ export default function NavBar() {
                                                     )
                                                     : ""
                                             }
-
-                                            {/*
-                                                (subItems && ((dropDownStatesMap.has(title) && dropDownStatesMap.get(title)) || navbarVisible))
-                                                    ? (
-                                                        <ul className="md:mt-8 md:absolute bg-[#232323] flex flex-col h-fit w-56 md:border-t-2 md:border-[#f7db5d] text-white">
-                                                            {subItems.map(([subTitle, subUrl]) => {
-                                                                const subDescription = projectMainResponsibilities[subTitle.toLowerCase()];
-                                                                const hasDescription = subDescription !== undefined;
-                                                                
-                                                                return (
-                                                                    <>
-                                                                    <Link to={subUrl} key={subTitle} className="hover:bg-gray-700 px-4">
-                                                                        <li className="text-white">{subTitle}</li>
-                                                                        {hasDescription && (
-                                                                            <>
-                                                                                <p className="text-gray-400 text-sm">{subDescription.join(', ')}</p>
-                                                                            </>
-                                                                        )}
-                                                                    </Link>
-                                                                    </>
-                                                                );
-                                                            })}
-                                                        </ul>
-                                                    )
-                                                    : ""
-                                            */}
                                         </li>
                                     </Link>
                                 ))
