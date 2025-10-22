@@ -30,7 +30,7 @@ function About() {
                         <b>Contact</b>
                     </h2>
                     <p>
-                        <MakeLink to={CV}>Resumé</MakeLink>
+                        <a href={CV} className='text-sky-500 hover:underline'>Resumé</a>
                     </p>
                     <p>
                         filiptynell(at)hotmail.com
