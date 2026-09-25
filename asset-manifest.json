@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.a2186fcc.css",
-    "main.js": "/react-portfolio/static/js/main.23816b0e.js",
+    "main.js": "/react-portfolio/static/js/main.5b3eb816.js",
     "static/media/menu.mp4": "/react-portfolio/static/media/menu.df7d34347950dd8a7a35.mp4",
     "static/media/404.gif": "/react-portfolio/static/media/404.b0232c0ecedc97323513.gif",
     "static/media/body-big-laser.mp4": "/react-portfolio/static/media/body-big-laser.a14a347a897f519fae7e.mp4",
@@ -117,7 +117,6 @@
     "static/media/fog.png": "/react-portfolio/static/media/fog.721ff8df11f7edccc20d.png",
     "static/media/Runmir_Thumbnail.jpg": "/react-portfolio/static/media/Runmir_Thumbnail.d8fabc027674187e752e.jpg",
     "static/media/2dblendspace2.mp4": "/react-portfolio/static/media/2dblendspace2.0983355ab72a94cdcf66.mp4",
-    "static/media/CV_FilipTynell.pdf": "/react-portfolio/static/media/CV_FilipTynell.1d5f75ffd95fcef8a83f.pdf",
     "static/media/renderbuffer.png": "/react-portfolio/static/media/renderbuffer.f45ead0f42f067d563e8.png",
     "static/media/ghostcruierser_thumbnail.png": "/react-portfolio/static/media/ghostcruierser_thumbnail.6cf2316bd8592c92266f.png",
     "static/media/anim_editor_logo1.png": "/react-portfolio/static/media/anim_editor_logo1.6f6e38f579f44b12aa03.png",
@@ -157,10 +156,10 @@
     "static/media/autoinspector.png": "/react-portfolio/static/media/autoinspector.25e8f3b148adfbfd0e78.png",
     "index.html": "/react-portfolio/index.html",
     "main.a2186fcc.css.map": "/react-portfolio/static/css/main.a2186fcc.css.map",
-    "main.23816b0e.js.map": "/react-portfolio/static/js/main.23816b0e.js.map"
+    "main.5b3eb816.js.map": "/react-portfolio/static/js/main.5b3eb816.js.map"
   },
   "entrypoints": [
     "static/css/main.a2186fcc.css",
-    "static/js/main.23816b0e.js"
+    "static/js/main.5b3eb816.js"
   ]
 }
