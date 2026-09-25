@@ -1,4 +1,3 @@
-import CV from './../resources/CV_FilipTynell.pdf'
 import { Divider, MakeLink } from './Utils'
 import ProfilePicture from './../resources/images/filip-scaled.jpg'
 
@@ -29,9 +28,6 @@ function About() {
                     <h2 className='text-left text-2xl pb-6'>
                         <b>Contact</b>
                     </h2>
-                    <p>
-                        <a href={CV} className='text-sky-500 hover:underline'>Resumé</a>
-                    </p>
                     <p>
                         filiptynell(at)hotmail.com
                     </p>
